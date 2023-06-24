@@ -8,6 +8,15 @@ const props = defineProps<{ level: 'easy' | 'medium' | 'hard' }>()
 const score = ref(0)
 const playing = ref(true)
 
+const elsaSize = computed(() => {
+  if(props.level === 'easy') {
+    return 25
+  } else if (props.level === 'medium') {
+    return 22
+  }
+  return 20
+})
+
 let speed = 6
 const elsaSpeed = computed(() => {
   if(props.level === 'easy') {
@@ -113,7 +122,7 @@ function again() {
 }
 
 .elsa {
-  width: 20vw;
+  width: calc(v-bind(elsaSize) * 1vw);
   position: absolute;
   bottom: 0;
   left: calc(v-bind(elsaX) * 1px);
