@@ -107,8 +107,8 @@ function again() {
 <template>
   <div v-if="playing">
     <h1>{{ score }}</h1>
-    <img src="fotball.png" alt="Ball" class="ball" ref="ballEl">
-    <img src="elsa.png" alt="Elsa" class="elsa" ref="elsaEl">
+    <img src="/fotball.png" alt="Ball" class="ball" ref="ballEl">
+    <img src="/elsa.png" alt="Elsa" class="elsa" ref="elsaEl">
   </div>
   <Result v-else :score="score" @again="again" :level="props.level"/>
 </template>

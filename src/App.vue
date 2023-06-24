@@ -32,7 +32,7 @@ main {
   color: var(--pink);
   height: 100vh;
   width: 100vw;
-  background-image: url(bg.jpg);
+  background-image: url('/bg.jpg');
   background-repeat: round;
   position: relative;
   display: flex;
