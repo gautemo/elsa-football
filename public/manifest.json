@@ -9,5 +9,6 @@
   "start_url": "/",
   "display": "fullscreen",
   "background_color": "#03ecfc",
-  "theme_color": "#ee697f"
+  "theme_color": "#ee697f",
+  "orientation": "landscape-primary"
 }
