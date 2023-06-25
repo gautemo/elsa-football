@@ -20,7 +20,7 @@ const level = ref<'easy' | 'medium' | 'hard'>()
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
 
 :root {
-  --pink: rgb(238, 105, 127);
+  --pink: #ee697f;
 }
 
 html, body {
@@ -31,6 +31,7 @@ main {
   font-family: 'Cinzel', serif;
   color: var(--pink);
   height: 100vh;
+  height: 100svh;
   width: 100vw;
   background-image: url('/bg.jpg');
   background-repeat: round;

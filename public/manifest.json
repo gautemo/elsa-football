@@ -1,0 +1,13 @@
+{
+  "name": "Elsa football",
+  "icons": [
+    {
+      "src": "assets/fotball.png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "fullscreen",
+  "background_color": "#03ecfc",
+  "theme_color": "#ee697f"
+}
