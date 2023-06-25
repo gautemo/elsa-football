@@ -52,7 +52,7 @@ setInterval(() => {
   if (x.value < elsaMid - 5) elsaX.value -= elsaSpeed.value
   if(elsaX.value < 0) {
     elsaX.value = 0
-  } else if(elsaX.value > document.documentElement.clientWidth - elsaEl.value.clientWidth - 10) {
+  } else if(elsaX.value > document.documentElement.clientWidth - elsaEl.value.clientWidth) {
     elsaX.value = document.documentElement.clientWidth - elsaEl.value.clientWidth
   }
 
