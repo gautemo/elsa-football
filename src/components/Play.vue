@@ -74,9 +74,10 @@ setInterval(() => {
   } else if(ball.y < 5) {
     ball.dx = 0
   } else if(
-    yBall > elsaEl.value.getBoundingClientRect().y
-    && midBall > elsaX.value
-    && midBall < elsaX.value + elsaEl.value.clientWidth
+    ball.dx === 0 &&
+    yBall > elsaEl.value.getBoundingClientRect().y &&
+    midBall > elsaX.value &&
+    midBall < elsaX.value + elsaEl.value.clientWidth
   ) {
     speed += speedInc.value
     score.value++
