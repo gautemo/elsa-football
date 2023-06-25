@@ -25,13 +25,17 @@ const level = ref<'easy' | 'medium' | 'hard'>()
 
 html, body {
   margin: 0;
+  height: 100%;
+}
+
+#app {
+  height: 100%;
 }
 
 main {
   font-family: 'Cinzel', serif;
   color: var(--pink);
-  height: 100vh;
-  height: 100svh;
+  height: 100%;
   width: 100vw;
   background-image: url('/bg.jpg');
   background-repeat: round;
