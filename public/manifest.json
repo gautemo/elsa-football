@@ -2,7 +2,7 @@
   "name": "Elsa football",
   "icons": [
     {
-      "src": "assets/fotball.png",
+      "src": "fotball.png",
       "sizes": "512x512"
     }
   ],
